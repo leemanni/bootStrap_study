@@ -1,0 +1,77 @@
+/* 웹에서 외부 스타일 시트를 가져온다. */
+@import url("http://fonts.googleapis.com/earlyaccess/nanumgothic.css");
+@import url("jumbotronUpdate.css");
+@import url("navigation-bar.css");
+@import url("footer.css");
+/* 전체 영역에 스타일 정의 */
+* {
+	font-family: "Nanum Gothic";
+}
+
+a{
+	color: white;
+	text-decoration: none;
+}
+a:hover{
+	color: #6E08F5;
+	text-decoration: none;
+	cursor: pointer;
+}
+/* 전체 내비게이션 */
+.navbar-default{
+	background-color: rgba(185, 149, 237,0.7);
+}
+
+/* 내비게이션 제목 */
+.navbar-default .navbar-brand{
+	color: white;
+}
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus{
+	opacity: 0.9;
+}
+
+/* 네비게이션 선택 */
+.navbar-default .navbar-nav .active a,
+.navbar-default .navbar-nav .active a:hover,
+.navbar-default .navbar-nav .active a:focus{
+	color: #6E08F5;
+}
+.navbar-default .navbar-nav li a{
+	color: white;
+}
+.navbar-default .navbar-nav li a:hover, 
+.navbar-default .navbar-nav li a:focus{
+	color: #6E08F5;
+}
+
+/* 드롭다운이 열렸을 때 메뉴 */
+.navbar-nav > .open >.dropdown-menu > li a{
+	color: #6E08F5;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

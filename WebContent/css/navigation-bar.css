@@ -1,0 +1,13 @@
+@charset "UTF-8";
+.nav-icon{
+	display: flex;
+	align-content: center;
+}
+.nav-icon__img{
+	width: 30px;
+	height:30px;
+	margin-right: 5px;
+}
+.nav-icon__title{
+	display: block;
+}
