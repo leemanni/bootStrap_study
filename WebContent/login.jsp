@@ -24,7 +24,7 @@
 				<span class="icon-bar"></span>
 				<span class="icon-bar"></span>
 			</button>
-			<a class="navbar-brand nav-icon" href="#">
+			<a class="navbar-brand nav-icon" href="index.jsp">
 				<img alt="bootstarp" class="nav-icon__img" src="https://serv2.raiolanetworks.es/blog/wp-content/uploads/portada-3.jpg">	
 				<span class="nav-icon__title">Bootstarp</span>
 			</a>
@@ -70,7 +70,7 @@
 							접속하기 <span class="caret"></span>
 						</a>
 						<ul class="dropdown-menu">
-							<li><a class="nav-a" href="login.jsp">로그인</a></li>
+							<li><a class="nav-a" href=#>로그인</a></li>
 							<li><a class="nav-a" href=#>회원가입</a></li>
 						</ul>
 					</li>
@@ -81,56 +81,50 @@
 </nav>
 
 <div class="container">
-	<div class="jumbotron">
-		<h1 class="text-center">
-			Bootstrap
-		</h1>
-		<p class="text-center">
-			부트스트랩(Bootstrap)은 웹사이트를 쉽게 만들 수 있게 도와주는 HTML, CSS, JS 프레임워크이다. 하나의 CSS로 휴대폰, 태블릿, 데스크탑까지 다양한 기기에서 작동한다. 다양한 기능을 제공하여 사용자가 쉽게 웹사이트를 제작, 유지, 보수할 수 있도록 도와준다.
-		</p>
-		<p class="text-right">
-			<a class="btn btn-primary btn-lg" href="https://ko.wikipedia.org/wiki/%EB%B6%80%ED%8A%B8%EC%8A%A4%ED%8A%B8%EB%9E%A9_(%ED%94%84%EB%9F%B0%ED%8A%B8%EC%97%94%EB%93%9C_%ED%94%84%EB%A0%88%EC%9E%84%EC%9B%8C%ED%81%AC)" role="button">
-				부트스트랩 자세히 알아보기
-			</a>
-		</p>
-	</div>
-	<div class="row">
-		<div class="class-md-4">
-			<h4>기원</h4>
-			<hr/>
-			<p>부트스트랩의 원래 이름은 Twitter Blueprint로 Mark Otto와 Jacob Thornton이 만들었다. 기존에 여러 인터페이스에 대응하기 위한 다양한 라이브러리들이 존재했지만 정형화되지 않아 유지, 보수에 어려움이 있었다.
-			 	트위터의 개발자였던 Mark Otto는 이를 통합하기 위해 부트스트랩을 만들었고 트위터의 다른 개발자들이 개발에 기여하기 시작했다. 부트스트랩이라는 이름은 2011년 8월 19일 오픈 소스가 발표되면서 지어졌다.<br/>
-				2012년 1월 31일 부트스트랩 2가 발표되었다. 이 버전에서는 12컬럼 그리드 레이아웃과 반응형 디자인이 포함되었다. 부트스트랩 3는 2013년 8월 19일 발표되었으며 모바일 플랫폼이 적용되었다.
-			</p>
-		</div><br/>
-		<div class="class-md-4">
-			<h4>특징</h4>
-			<hr/>
-			<p>
-				부트스트랩은 크롬, 파이어폭스, 인터넷 익스플로러, 오페라, 사파리의 최신 버전을 지원하지만 모든 기능을 완벽하게 지원하지 않는 브라우저도 있다.
-			</p>
-		</div><br/>
-		<div class="class-md-4">
-			<h4>구조와 기능</h4>
-			<hr/>
-			<p>
-				부트스트랩은 <a href="https://ko.wikipedia.org/wiki/Sass_(%EC%8A%A4%ED%83%80%EC%9D%BC%EC%8B%9C%ED%8A%B8_%EC%96%B8%EC%96%B4)">SASS</a> 스타일시트를 기반으로 한다.
-			</p><br/>
-			<h5><i class="bi bi-arrow-right-circle-fill"></i>CSS</h5>
-			<p>
-				부트스트랩은 HTML에서 사용되는 기본 스타일을 제공한다. 이는 모던한 글꼴, 테이블, 폼을 제공한다.
-			</p>
-			<h5><i class="bi bi-arrow-right-circle-fill"></i>재사용 가능한 콤포넌트</h5>
-			<p>
-				부트스트랩은 기본 요소 외에도 사용자들이 자주 사용하는 요소들을 포함한다. 예를 들면, 각종 버튼들, 드롭다운 메뉴, 탭, 라벨, 상태 바 등이 있다.
-			</p><br/>
-			<h5><i class="bi bi-arrow-right-circle-fill"></i>자바 스크립트 콤포넌트</h5>
-			<p>
-				부트스트랩은 자바 스크립트를 이용하여 드롭다운, 탭, 버튼 등의 기능을 구현한다.
-			</p><br/>
-		</div><br/>
-	</div>
+    <div class="row">
+        <div class="col-md-3 col-md-offset-4">
+            <div class="account-box">
+                <div class="logo">
+                   <img alt="bootstarp" class="nav-icon__img" src="https://serv2.raiolanetworks.es/blog/wp-content/uploads/portada-3.jpg">	
+                </div>
+                <form class="form-signin" action="#">
+	                <div class="form-group">
+	                    <input type="text" class="form-control" placeholder="Email" required autofocus />
+	                </div>
+	                <div class="form-group">
+	                    <input type="password" class="form-control" placeholder="Password" required />
+	                </div>
+	                <label class="checkbox">
+	                    <input type="checkbox" value="remember-me"/>
+	                    Keep me signed in
+	                </label>
+	                <button class="btn btn-lg btn-block purple-bg" type="submit">
+	                    Sign in</button>
+                </form>
+                <a class="forgotLnk" href="http://www.jquery2dotnet.com">I can't access my account</a>
+                <div class="or-box">
+                    <span class="or">OR</span>
+                    <div class="row">
+                        <div class="col-md-6 row-block">
+                            <a href="http://www.jquery2dotnet.com" class="btn btn-facebook">Facebook</a>
+                        </div>
+                        <div class="col-md-6 row-block">
+                            <a href="http://www.jquery2dotnet.com" class="btn btn-google">Google</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="or-box row-block">
+                    <div class="row">
+                        <div class="col-md-12 row-block">
+                            <a href="http://www.jquery2dotnet.com" class="btn btn-primary btn-block">Create New Account</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 </div>
+<br/>
 
 <footer class="footermain">
 	<div class="container">

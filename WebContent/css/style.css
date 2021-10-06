@@ -3,16 +3,22 @@
 @import url("jumbotronUpdate.css");
 @import url("navigation-bar.css");
 @import url("footer.css");
+@import url("login.css");
 /* 전체 영역에 스타일 정의 */
 * {
 	font-family: "Nanum Gothic";
 }
-
 a{
+	color: black;
+	text-decoration: none;
+}
+.nav-a,
+.foot-a{
 	color: white;
 	text-decoration: none;
 }
-a:hover{
+.nav-a:hover,
+.foot-a:hover{
 	color: #6E08F5;
 	text-decoration: none;
 	cursor: pointer;
